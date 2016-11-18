@@ -8,6 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
+import android.util.Log;
 
 /**
  * Instrumentation test, which will execute on an Android device.
@@ -22,5 +23,6 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.wipro.mobilitygittestapplication", appContext.getPackageName());
+        Log.d("EspressoTest","useAppContext is verified successfully");
     }
 }
